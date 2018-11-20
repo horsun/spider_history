@@ -1,0 +1,16 @@
+beautifulsoup4==4.6.0
+bs4==0.0.1
+certifi==2018.4.16
+chardet==3.0.4
+future==0.16.0
+idna==2.7
+lxml==4.2.2
+peewee==3.5.0
+Pillow==5.1.0
+PyMySQL==0.8.1
+requests==2.11.1
+six==1.11.0
+urllib3==1.23
+wechatsogou==4.2.2
+Werkzeug==0.14.1
+xlrd==1.1.0
