@@ -29,6 +29,7 @@ class ProxyCrawl(object):
             }
 
     def test_ip(self):
+        # 通过yield 使方法变成一个消费者
         while True:
             proxy = yield
             try:
@@ -40,11 +41,13 @@ class ProxyCrawl(object):
                 self.success.append(proxy)
 
     def save_ip(self):
+        #----主要协程用法----
         tset_iiip = self.test_ip()
         next(tset_iiip)
         for item in self.get_ip():
             tset_iiip.send(item)
         tset_iiip.close()
+        #------------------
         with open('ipipmuti.txt', 'a') as newfile:
             for proxies in self.success:
                 newfile.write(str(proxies))
