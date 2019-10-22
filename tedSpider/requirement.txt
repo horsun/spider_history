@@ -12,7 +12,7 @@ idna==2.7
 lxml==4.2.2
 oss2==2.5.0
 peewee==3.5.0
-Pillow==5.1.0
+Pillow==6.2.0
 pycryptodome==3.6.3
 pyexecjs==1.5.1
 pymongo==3.7.0
