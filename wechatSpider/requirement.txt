@@ -6,7 +6,7 @@ future==0.16.0
 idna==2.7
 lxml==4.2.2
 peewee==3.5.0
-Pillow==5.1.0
+Pillow==6.2.0
 PyMySQL==0.8.1
 requests==2.11.1
 six==1.11.0
